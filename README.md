@@ -14,9 +14,14 @@ To facilitate this order matching, we want to design an algorithm that, given an
 
 Our list of available supply is an array that looks something like this:
 
-```
-// SHOW EXAMPLE CARBON REMOVALS HERE
-```
+|id    |project_name      |quantity|location|year|
+|------|------------------|--------|--------|----|
+|abc123|Tea Time Farm     |1.0     |WA      |2020|
+|efg456|Tea Time Farm     |2.5     |WA      |2021|
+|hij789|Oppenlander Supply|3.0     |ID      |2021|
+|klm012|Yee Produce       |4.25    |CA      |2019|
+|nop345|Yee Produce       |0.75    |CA      |2020|
+|qrs678|Yee Produce       |2.0     |CA      |2021|
 
 Use the following function to implement a matching algorithm that returns a list of carbon removals that can be used to fulfill the order.
 
