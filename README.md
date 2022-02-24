@@ -1,12 +1,8 @@
-# Readme.md
+# Before you begin
 
-# Before the interview begins
+Fork this repository, clone it to your machine, and run `yarn install` (or `npm install`). 
 
-Fork this repository and clone it to your environment of choice.
-
-## Part 1
-
-### The Problem
+# The Problem
 
 Our application matches orders for carbon removal with available supply to determine which carbon removals are used for an order.
 
