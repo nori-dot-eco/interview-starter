@@ -3,7 +3,6 @@
   "private": true,
   "scripts": {
     "build": "tsc",
-    "dev": "tsc --watch",
     "test": "jest --watchAll",
     "lint": "eslint --ext .js,.ts .",
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\""
